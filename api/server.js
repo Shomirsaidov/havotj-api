@@ -30,7 +30,7 @@ db.connect((err) => {
 
 // Get all data
 app.get('/data', (req, res) => {
-  const query = 'SELECT * FROM data';
+  const query = 'SELECT * FROM eco';
   db.query(query, (err, results) => {
     if (err) {
       console.error('Error fetching data:', err);
