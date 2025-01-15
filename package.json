@@ -2,11 +2,11 @@
   "name": "havo.tj",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "api/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Shomirsaidov Abubakr",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.3",
